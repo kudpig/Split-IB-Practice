@@ -14,6 +14,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    
+    
+    @IBAction func go2Button(_ sender: UIButton) {
+        performSegue(withIdentifier: "goPage2", sender: nil)
+    }
+    
+    
 
 }
 
